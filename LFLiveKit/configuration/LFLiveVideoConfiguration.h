@@ -99,4 +99,7 @@ typedef NS_ENUM (NSUInteger, LFLiveVideoQuality){
 ///< 是否是横屏
 @property (nonatomic, assign, readonly) BOOL landscape;
 
+//Auto rotation
+- (void)refreshVideoSize;
+
 @end
